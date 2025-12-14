@@ -1,0 +1,7 @@
+nums = [2,0,2,1,1,0]
+n=len(nums)
+for i in range (n):
+    for j in range(i,n):
+        if nums[i]>nums[j]:
+            nums[i],nums[j]=nums[j],nums[i]
+print(nums)            
