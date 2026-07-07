@@ -1,0 +1,11 @@
+n = 10203004
+x = 0
+s = 0
+        
+for ch in str(n):
+    if ch != '0':
+        d = int(ch)
+        x = x * 10 + d
+        s += d
+        
+print( x * s)
